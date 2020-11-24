@@ -21,4 +21,17 @@ Il suffit de lancer la commande suivante:
 - Symfony
 - Mysql (mariadb)
 - PhpMyAdmin
-- composer dans Symfony
+
+### tips
+
+#### Composer: 
+Pour executer une commande composer il est necessaire de passer par la console du container symfony. 
+`docker exec -it *nomDuContainer*`
+Une fois dans le container vous pouvez tester en utilisant composer.
+
+#### Url:
+Application symfony:
+`localhost:81`
+
+PhpMyAdmin:
+`localhost:8080`
